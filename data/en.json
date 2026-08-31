@@ -1,0 +1,99 @@
+{
+  "language": "English",
+  "homeTitle": "Home",
+  "calendarTitle": "Calendar",
+  "prayerRollTitle": "Prayer Roll",
+  "settingsTitle": "Settings",
+  "todayLessonHeading": "Today's Lesson",
+  "announcementsHeading": "Announcements",
+  "recurringHeading": "Recurring Activities",
+  "calendarMonthHeading": "Month",
+  "prayerRequestsHeading": "Prayer Requests",
+  "risingGenerationHeading": "Praying for the Rising Generation",
+  "changeLanguageHeading": "Change Language",
+  "languageSwitchDescription": "Switch to view the whole app in Spanish.",
+  "backLabel": "Back",
+  "navHome": "Home",
+  "navCalendar": "Calendar",
+  "navPrayer": "Prayer",
+  "navSettings": "Settings",
+  "todayLesson": {
+    "title": "The Power of Prayer",
+    "subtitle": "Tap to open today's lesson.",
+    "link": "https://www.churchofjesuschrist.org/study/scriptures",
+    "image": "images/placeholders/Class.jpg"
+  },
+  "announcements": [
+    {
+      "title": "Hispanic Pachanga and Potluck",
+      "description": "Bring a favorite dish and your best smile.",
+      "date": "Saturday, September 26",
+      "time": "6:00 PM - 10:00 PM",
+      "where": "To be determined",
+      "image": "images/placeholders/Potluck.jpg"
+    },
+    {
+      "title": "Service Project Day",
+      "description": "Join the branch to support the neighborhood.",
+      "date": "Saturday, October 5",
+      "time": "9:00 AM",
+      "where": "Branch Grounds",
+      "image": "images/placeholders/Class.jpg"
+    },
+    {
+      "title": "Family Home Evening",
+      "description": "Come ready for a warm lesson and fellowship.",
+      "date": "Monday, October 7",
+      "time": "7:00 PM",
+      "where": "Meeting Room",
+      "image": "images/placeholders/SelfDefense.jpg"
+    }
+  ],
+  "recurringActivities": [
+    {
+      "title": "Spanish Connect",
+      "date": "Tuesdays",
+      "time": "6:00 PM - 7:00 PM",
+      "where": "Lockhart Branch",
+      "image": "images/placeholders/SpanishConnect.jpg"
+    }
+  ],
+  "calendar": [
+    {
+      "month": "July 2026",
+      "events": [
+        {
+          "title": "Ward BBQ",
+          "date": "July 10",
+          "time": "6:00 PM",
+          "location": "Branch House"
+        },
+        {
+          "title": "Temple Trip",
+          "date": "July 15",
+          "time": "8:00 AM",
+          "location": "Temple Parking Lot"
+        }
+      ]
+    }
+  ],
+  "prayerRequests": [
+    {
+      "name": "John Smith",
+      "reason": "Recovering from surgery"
+    },
+    {
+      "name": "Maria Lopez",
+      "reason": "Seeking peace during a difficult season"
+    },
+    {
+      "name": "Daniel Carter",
+      "reason": "Traveling for work and needing protection"
+    }
+  ],
+  "risingGeneration": [
+    "Emma",
+    "Jacob",
+    "Noah"
+  ]
+}

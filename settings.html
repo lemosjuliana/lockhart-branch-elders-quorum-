@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elder's Quorum | Settings</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body data-page="settings">
+    <header class="top-bar">
+        <div class="top-bar-content">
+            <a href="index.html" class="back-link" aria-label="Back">
+                <span class="material-symbols-outlined">arrow_back</span>
+            </a>
+            <h1 id="pageTitle" data-i18n="settingsTitle">Settings</h1>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <section class="section">
+            <div class="section-heading">
+                <h2 data-i18n="changeLanguageHeading">Change Language</h2>
+            </div>
+
+            <div class="settings-card">
+                <div class="settings-copy">
+                    <h3 data-i18n="changeLanguageHeading">Change Language</h3>
+                    <p data-i18n="languageSwitchDescription">Switch to view the whole app in Spanish.</p>
+                </div>
+                <label class="switch" for="languageSwitch">
+                    <input id="languageSwitch" type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </section>
+    </main>
+
+    <nav class="bottom-nav">
+        <a href="index.html" data-nav="home" aria-label="Home">
+            <span class="material-symbols-outlined">home</span>
+            <span class="nav-label" data-i18n="navHome">Home</span>
+        </a>
+        <a href="calendar.html" data-nav="calendar" aria-label="Calendar">
+            <span class="material-symbols-outlined">calendar_month</span>
+            <span class="nav-label" data-i18n="navCalendar">Calendar</span>
+        </a>
+        <a href="prayers-roll.html" data-nav="prayer" aria-label="Prayer Roll">
+            <span class="material-symbols-outlined">format_list_bulleted</span>
+            <span class="nav-label" data-i18n="navPrayer">Prayer</span>
+        </a>
+        <a href="settings.html" data-nav="settings" aria-label="Settings">
+            <span class="material-symbols-outlined">settings</span>
+            <span class="nav-label" data-i18n="navSettings">Settings</span>
+        </a>
+    </nav>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

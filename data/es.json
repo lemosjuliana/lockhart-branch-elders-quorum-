@@ -1,0 +1,106 @@
+{
+  "language": "Español",
+  "homeTitle": "Inicio",
+  "calendarTitle": "Calendario",
+  "prayerRollTitle": "Lista de Oración",
+  "settingsTitle": "Configuración",
+  "todayLessonHeading": "Lección de Hoy",
+  "announcementsHeading": "Anuncios",
+  "recurringHeading": "Actividades Recurrentes",
+  "calendarMonthHeading": "Mes",
+  "prayerRequestsHeading": "Solicitudes de Oración",
+  "risingGenerationHeading": "Orando por la Generación Joven",
+  "changeLanguageHeading": "Cambiar Idioma",
+  "languageSwitchDescription": "Cambia a español para ver toda la aplicación en ese idioma.",
+  "backLabel": "Regresar",
+  "navHome": "Inicio",
+  "navCalendar": "Calendario",
+  "navPrayer": "Oración",
+  "navSettings": "Ajustes",
+  "todayLesson": {
+    "title": "El Poder de la Oración",
+    "subtitle": "Toca para abrir la lección de hoy.",
+    "link": "https://www.churchofjesuschrist.org/study/scriptures",
+    "image": "images/placeholders/Class.jpg"
+  },
+  "announcements": [
+    {
+      "title": "Pachanga Hispana y Comida Compartida",
+      "description": "Trae un platillo favorito y tu mejor sonrisa.",
+      "date": "Sábado, 26 de septiembre",
+      "time": "6:00 PM - 10:00 PM",
+      "where": "Por determinar",
+      "image": "images/placeholders/Potluck.jpg"
+    },
+    {
+      "title": "Día de Servicio",
+      "description": "Únete a la rama para apoyar al vecindario.",
+      "date": "Sábado, 5 de octubre",
+      "time": "9:00 AM",
+      "where": "Terrenos de la Rama",
+      "image": "images/placeholders/Class.jpg"
+    },
+    {
+      "title": "Noche Familiar",
+      "description": "Ven listo para una lección cálida y compañerismo.",
+      "date": "Lunes, 7 de octubre",
+      "time": "7:00 PM",
+      "where": "Sala de Reuniones",
+      "image": "images/placeholders/SelfDefense.jpg"
+    }
+  ],
+  "recurringActivities": [
+    {
+      "title": "Clase de Defensa Personal",
+      "date": "Viernes",
+      "time": "7:00 PM",
+      "where": "Rama de Lockhart",
+      "image": "images/placeholders/SelfDefense.jpg"
+    },
+    {
+      "title": "Conexión en Español",
+      "date": "Martes",
+      "time": "6:00 PM - 7:00 PM",
+      "where": "Rama de Lockhart",
+      "image": "images/placeholders/SpanishConnect.jpg"
+    }
+  ],
+  "calendar": [
+    {
+      "month": "Julio 2026",
+      "events": [
+        {
+          "title": "Parrillada de la Rama",
+          "date": "10 de julio",
+          "time": "6:00 PM",
+          "location": "Casa de la Rama"
+        },
+        {
+          "title": "Viaje al Templo",
+          "date": "15 de julio",
+          "time": "8:00 AM",
+          "location": "Estacionamiento del Templo"
+        }
+      ]
+    }
+  ],
+  "prayerRequests": [
+    {
+      "name": "John Smith",
+      "reason": "Recuperándose de una cirugía"
+    },
+    {
+      "name": "Maria Lopez",
+      "reason": "Buscando paz durante una temporada difícil"
+    },
+    {
+      "name": "Daniel Carter",
+      "reason": "Viajando por trabajo y necesitando protección"
+    }
+  ],
+  "risingGeneration": [
+    "Emma",
+    "Jacob",
+    "Noah"
+  ]
+}

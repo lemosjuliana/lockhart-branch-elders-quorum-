@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elder's Quorum | Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+
+<body data-page="home">
+    <header class="top-bar">
+        <div class="top-bar-content">
+            <h1 id="pageTitle" data-i18n="homeTitle">Home</h1>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <section class="section lesson-section">
+            <div class="section-heading">
+                <h2 data-i18n="todayLessonHeading">Today's Lesson</h2>
+            </div>
+
+            <div id="lessonCard" class="card lesson-card">
+                <div class="image">
+                    <img id="lessonImage" src="images/placeholders/Class.jpg" alt="Today's lesson">
+                </div>
+                <div class="content">
+                    <a id="lessonLink" href="#" target="_blank" rel="noopener noreferrer">
+                        <span id="lessonTitle" class="title">Placeholder Lesson Title</span>
+                    </a>
+                    <p id="lessonSubtitle" class="desc">Tap to open today's lesson.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-heading">
+                <h2 data-i18n="announcementsHeading">Announcements</h2>
+            </div>
+            <div id="announcementContainer" class="card-grid">
+                <div class="empty-state">
+                    <span class="material-symbols-outlined empty-icon">campaign</span>
+                    <h3>No Announcements</h3>
+                    <p>There are no announcements available.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-heading">
+                <h2 data-i18n="recurringHeading">Recurring Activities</h2>
+            </div>
+            <div id="recurringContainer" class="card-grid">
+                <div class="empty-state">
+                    <span class="material-symbols-outlined empty-icon">event_repeat</span>
+                    <h3>No Activities</h3>
+                    <p>There are no recurring activities.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <nav class="bottom-nav">
+        <a href="index.html" data-nav="home" aria-label="Home">
+            <span class="material-symbols-outlined">home</span>
+            <span class="nav-label" data-i18n="navHome">Home</span>
+        </a>
+        <a href="calendar.html" data-nav="calendar" aria-label="Calendar">
+            <span class="material-symbols-outlined">calendar_month</span>
+            <span class="nav-label" data-i18n="navCalendar">Calendar</span>
+        </a>
+        <a href="prayers-roll.html" data-nav="prayer" aria-label="Prayer Roll">
+            <span class="material-symbols-outlined">format_list_bulleted</span>
+            <span class="nav-label" data-i18n="navPrayer">Prayer</span>
+        </a>
+        <a href="settings.html" data-nav="settings" aria-label="Settings">
+            <span class="material-symbols-outlined">settings</span>
+            <span class="nav-label" data-i18n="navSettings">Settings</span>
+        </a>
+    </nav>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
