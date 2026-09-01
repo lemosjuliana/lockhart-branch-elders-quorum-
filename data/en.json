@@ -10,8 +10,9 @@
   "calendarMonthHeading": "Month",
   "prayerRequestsHeading": "Prayer Requests",
   "risingGenerationHeading": "Praying for the Rising Generation",
-  "changeLanguageHeading": "Change Language",
-  "languageSwitchDescription": "Switch to view the whole app in Spanish.",
+  "changeLanguageHeading": "Cambiar Idioma",
+  "changeLanguageHeading2": "Cambiar Idioma",
+  "languageSwitchDescription": "Cambiar para ver toda la aplicación en Español.",
   "backLabel": "Back",
   "navHome": "Home",
   "navCalendar": "Calendar",
@@ -29,7 +30,7 @@
       "description": "Bring a favorite dish and your best smile.",
       "date": "Saturday, September 26",
       "time": "6:00 PM - 10:00 PM",
-      "where": "To be determined",
+      "where": "Place to be determined",
       "image": "images/placeholders/Potluck.jpg"
     },
     {
@@ -38,7 +39,7 @@
       "date": "Saturday, October 5",
       "time": "9:00 AM",
       "where": "Branch Grounds",
-      "image": "images/placeholders/Class.jpg"
+      "image": "images/placeholders/ServiceProject.jpg"
     },
     {
       "title": "Family Home Evening",
@@ -46,7 +47,7 @@
       "date": "Monday, October 7",
       "time": "7:00 PM",
       "where": "Meeting Room",
-      "image": "images/placeholders/SelfDefense.jpg"
+      "image": "images/placeholders/FHE.jpg"
     }
   ],
   "recurringActivities": [
@@ -65,7 +66,7 @@
         {
           "title": "Ward BBQ",
           "date": "July 10",
-          "time": "6:00 PM",
+          "time": "6:30 PM",
           "location": "Branch House"
         },
         {
@@ -79,16 +80,8 @@
   ],
   "prayerRequests": [
     {
-      "name": "John Smith",
+      "name": "Brother Scott",
       "reason": "Recovering from surgery"
-    },
-    {
-      "name": "Maria Lopez",
-      "reason": "Seeking peace during a difficult season"
-    },
-    {
-      "name": "Daniel Carter",
-      "reason": "Traveling for work and needing protection"
     }
   ],
   "risingGeneration": [

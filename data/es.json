@@ -10,8 +10,8 @@
   "calendarMonthHeading": "Mes",
   "prayerRequestsHeading": "Solicitudes de Oración",
   "risingGenerationHeading": "Orando por la Generación Joven",
-  "changeLanguageHeading": "Cambiar Idioma",
-  "languageSwitchDescription": "Cambia a español para ver toda la aplicación en ese idioma.",
+  "changeLanguageHeading": "Change Language",
+  "languageSwitchDescription": "Switch to view the whole app in English.",
   "backLabel": "Regresar",
   "navHome": "Inicio",
   "navCalendar": "Calendario",
@@ -29,7 +29,7 @@
       "description": "Trae un platillo favorito y tu mejor sonrisa.",
       "date": "Sábado, 26 de septiembre",
       "time": "6:00 PM - 10:00 PM",
-      "where": "Por determinar",
+      "where": "Lugar a ser determinado",
       "image": "images/placeholders/Potluck.jpg"
     },
     {
@@ -37,8 +37,8 @@
       "description": "Únete a la rama para apoyar al vecindario.",
       "date": "Sábado, 5 de octubre",
       "time": "9:00 AM",
-      "where": "Terrenos de la Rama",
-      "image": "images/placeholders/Class.jpg"
+      "where": "Rama de Lockhart",
+      "image": "images/placeholders/ServiceProject.jpg"
     },
     {
       "title": "Noche Familiar",
@@ -46,22 +46,15 @@
       "date": "Lunes, 7 de octubre",
       "time": "7:00 PM",
       "where": "Sala de Reuniones",
-      "image": "images/placeholders/SelfDefense.jpg"
+      "image": "images/placeholders/FHE.jpg"
     }
   ],
   "recurringActivities": [
     {
-      "title": "Clase de Defensa Personal",
-      "date": "Viernes",
-      "time": "7:00 PM",
-      "where": "Rama de Lockhart",
-      "image": "images/placeholders/SelfDefense.jpg"
-    },
-    {
-      "title": "Conexión en Español",
-      "date": "Martes",
-      "time": "6:00 PM - 7:00 PM",
-      "where": "Rama de Lockhart",
+      "title": "English Connect",
+      "date": "Domingos",
+      "time": "5:00 PM - 6:30 PM",
+      "where": "608 St Paul St. Gonzales, TX",
       "image": "images/placeholders/SpanishConnect.jpg"
     }
   ],
@@ -86,16 +79,8 @@
   ],
   "prayerRequests": [
     {
-      "name": "John Smith",
+      "name": "Brother Scott",
       "reason": "Recuperándose de una cirugía"
-    },
-    {
-      "name": "Maria Lopez",
-      "reason": "Buscando paz durante una temporada difícil"
-    },
-    {
-      "name": "Daniel Carter",
-      "reason": "Viajando por trabajo y necesitando protección"
     }
   ],
   "risingGeneration": [
