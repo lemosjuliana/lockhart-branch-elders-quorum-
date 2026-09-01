@@ -246,6 +246,23 @@ a {
     background-color: var(--accent);
 }
 
+.lesson-link-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.7rem;
+}
+
+.lesson-link-title .title {
+    flex: 1;
+}
+
+.lesson-external-icon {
+    flex-shrink: 0;
+    color: var(--bg);
+    font-size: 1.2rem;
+}
+
 /* ==========================================
    ANNOUNCEMENT CARDS
 ========================================== */
