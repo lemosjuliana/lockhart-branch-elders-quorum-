@@ -1,5 +1,6 @@
 const storedLanguage = localStorage.getItem("language") || "en";
 let language = storedLanguage;
+let lastModalTrigger = null;
 
 async function loadData() {
     const response = await fetch(`data/${language}.json`);
@@ -54,7 +55,10 @@ function renderAnnouncements(data) {
 
     data.announcements.slice(0, 3).forEach((item) => {
         const card = document.createElement("article");
-        card.className = "card announcement-card";
+        card.className = "card announcement-card activity-card";
+        card.tabIndex = 0;
+        card.setAttribute("role", "button");
+        card.setAttribute("aria-label", `View details for ${item.title}`);
         card.innerHTML = `
             <div class="image">
                 <img src="${item.image}" alt="${item.title}">
@@ -63,9 +67,10 @@ function renderAnnouncements(data) {
                 <a href="#">
                     <span class="title">${item.title}</span>
                 </a>
-                <p class="desc">${item.date} · ${item.time} · ${item.where}</p>
+                <p class="desc">${item.date} · ${item.time}</p>
             </div>
         `;
+        setupActivityCard(card, item);
         container.appendChild(card);
     });
 }
@@ -83,7 +88,10 @@ function renderRecurring(data) {
 
     data.recurringActivities.forEach((item) => {
         const card = document.createElement("article");
-        card.className = "card recurring-card";
+        card.className = "card recurring-card activity-card";
+        card.tabIndex = 0;
+        card.setAttribute("role", "button");
+        card.setAttribute("aria-label", `View details for ${item.title}`);
         card.innerHTML = `
             <div class="image">
                 <img src="${item.image}" alt="${item.title}">
@@ -92,10 +100,61 @@ function renderRecurring(data) {
                 <a href="#">
                     <span class="title">${item.title}</span>
                 </a>
-                <p class="desc">${item.date} · ${item.time} · ${item.where}</p>
+                <p class="desc">${item.date} · ${item.time}</p>
             </div>
         `;
+        setupActivityCard(card, item);
         container.appendChild(card);
+    });
+}
+
+function setupActivityCard(card, item) {
+    card.addEventListener("click", (event) => {
+        event.preventDefault();
+        openActivityModal(item, card);
+    });
+    card.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            openActivityModal(item, card);
+        }
+    });
+}
+
+function openActivityModal(item, trigger) {
+    const modal = document.getElementById("activityModal");
+    if (!modal) return;
+
+    lastModalTrigger = trigger;
+    document.getElementById("activityModalTitle").textContent = item.title;
+    document.getElementById("activityModalDescription").textContent = item.description || "";
+    document.getElementById("activityModalDate").textContent = item.date;
+    document.getElementById("activityModalTime").textContent = item.time;
+    document.getElementById("activityModalWhere").textContent = item.where;
+    modal.hidden = false;
+    modal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("modal-open");
+    document.getElementById("activityModalClose").focus();
+}
+
+function closeActivityModal() {
+    const modal = document.getElementById("activityModal");
+    if (!modal || modal.hidden) return;
+
+    modal.hidden = true;
+    modal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("modal-open");
+    lastModalTrigger?.focus();
+}
+
+function setupActivityModal() {
+    const modal = document.getElementById("activityModal");
+    if (!modal) return;
+
+    document.getElementById("activityModalClose").addEventListener("click", closeActivityModal);
+    modal.querySelector("[data-modal-close]").addEventListener("click", closeActivityModal);
+    document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") closeActivityModal();
     });
 }
 
@@ -193,4 +252,5 @@ function setupLanguageToggle() {
     });
 }
 
+setupActivityModal();
 loadData();

@@ -28,6 +28,10 @@ body {
     padding-bottom: 92px;
 }
 
+body.modal-open {
+    overflow: hidden;
+}
+
 img {
     display: block;
     width: 100%;
@@ -177,6 +181,10 @@ a {
     box-shadow: 0 6px 16px rgba(28, 54, 90, 0.12);
 }
 
+.activity-card {
+    cursor: pointer;
+}
+
 .card:focus-visible {
     outline: 3px solid var(--accent);
     outline-offset: 3px;
@@ -289,6 +297,85 @@ a {
     margin-bottom: 0.5rem;
     font-size: 2rem;
     color: var(--accent);
+}
+
+.activity-modal[hidden] {
+    display: none;
+}
+
+.activity-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    display: grid;
+    place-items: center;
+    padding: 1.25rem;
+}
+
+.activity-modal__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 24, 51, 0.58);
+}
+
+.activity-modal__content {
+    position: relative;
+    width: min(100%, 500px);
+    padding: 2rem 1.4rem 2rem 1.4rem ;
+    border-radius: 1rem;
+    background: var(--surface);
+    box-shadow: 0 24px 60px rgba(10, 24, 51, 0.28);
+}
+
+.activity-modal__content h2 {
+    margin: 0 2rem 0.65rem 0;
+    color: var(--primary-dark);
+    font-size: 1.3rem;
+}
+
+.activity-modal__close {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    display: inline-grid;
+    place-items: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: var(--surface-muted);
+    color: var(--primary-dark);
+    cursor: pointer;
+}
+
+.activity-modal__description {
+    margin: 0 0 1.1rem;
+    color: var(--text-muted);
+}
+
+.activity-modal__details {
+    display: grid;
+    gap: 0.7rem;
+    margin: 0;
+}
+
+.activity-modal__details div {
+    padding: 0.7rem 0.8rem;
+    border-radius: 0.7rem;
+    background: var(--surface-muted);
+}
+
+.activity-modal__details dt {
+    color: var(--primary-dark);
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.activity-modal__details dd {
+    margin: 0.08rem 0 0;
+    color: var(--text);
 }
 
 .bottom-nav {

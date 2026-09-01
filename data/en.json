@@ -7,6 +7,9 @@
   "todayLessonHeading": "Today's Lesson",
   "announcementsHeading": "Announcements",
   "recurringHeading": "Recurring Activities",
+  "activityDateLabel": "Date",
+  "activityTimeLabel": "Time",
+  "activityWhereLabel": "Where",
   "calendarMonthHeading": "Month",
   "prayerRequestsHeading": "Prayer Requests",
   "risingGenerationHeading": "Praying for the Rising Generation",
@@ -53,6 +56,7 @@
   "recurringActivities": [
     {
       "title": "Spanish Connect",
+      "description": "Practice Spanish and build friendships in a relaxed weekly gathering.",
       "date": "Tuesdays",
       "time": "6:00 PM - 7:00 PM",
       "where": "Lockhart Branch",

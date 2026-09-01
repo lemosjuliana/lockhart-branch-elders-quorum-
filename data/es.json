@@ -7,6 +7,9 @@
   "todayLessonHeading": "Lección de Hoy",
   "announcementsHeading": "Anuncios",
   "recurringHeading": "Actividades Recurrentes",
+  "activityDateLabel": "Fecha",
+  "activityTimeLabel": "Hora",
+  "activityWhereLabel": "Lugar",
   "calendarMonthHeading": "Mes",
   "prayerRequestsHeading": "Solicitudes de Oración",
   "risingGenerationHeading": "Orando por la Generación Joven",
@@ -52,6 +55,7 @@
   "recurringActivities": [
     {
       "title": "English Connect",
+      "description": "Practica inglés y crea amistades en una reunión semanal relajada.",
       "date": "Domingos",
       "time": "5:00 PM - 6:30 PM",
       "where": "608 St Paul St. Gonzales, TX",

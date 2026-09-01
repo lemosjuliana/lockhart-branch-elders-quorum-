@@ -61,6 +61,22 @@
         </section>
     </main>
 
+    <div id="activityModal" class="activity-modal" role="dialog" aria-modal="true" aria-labelledby="activityModalTitle" aria-hidden="true" hidden>
+        <div class="activity-modal__backdrop" data-modal-close></div>
+        <section class="activity-modal__content" role="document">
+            <button id="activityModalClose" class="activity-modal__close" type="button" aria-label="Close">
+                <span class="material-symbols-outlined" aria-hidden="true">close</span>
+            </button>
+            <h2 id="activityModalTitle"></h2>
+            <p id="activityModalDescription" class="activity-modal__description"></p>
+            <dl class="activity-modal__details">
+                <div><dt data-i18n="activityDateLabel">Date</dt><dd id="activityModalDate"></dd></div>
+                <div><dt data-i18n="activityTimeLabel">Time</dt><dd id="activityModalTime"></dd></div>
+                <div><dt data-i18n="activityWhereLabel">Where</dt><dd id="activityModalWhere"></dd></div>
+            </dl>
+        </section>
+    </div>
+
     <nav class="bottom-nav">
         <a href="index.html" data-nav="home" aria-label="Home">
             <span class="material-symbols-outlined">home</span>
