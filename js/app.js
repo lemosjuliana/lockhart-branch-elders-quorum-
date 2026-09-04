@@ -162,28 +162,37 @@ function renderCalendar(data) {
     const container = document.getElementById("calendarEvents");
     if (!container) return;
 
-    const month = data.calendar?.[0];
-    if (!month) {
+    const announcements = data.announcements || [];
+    if (!announcements.length) {
         container.innerHTML = '<div class="empty-state"><span class="material-symbols-outlined empty-icon">calendar_month</span><h3>No Events</h3><p>No calendar events available.</p></div>';
         return;
     }
 
-    container.innerHTML = `
-        <div class="calendar-item">
-            <h3>${month.month}</h3>
-        </div>
-    `;
+    const activitiesByMonth = announcements.reduce((groups, activity) => {
+        const month = activity.month || "Upcoming Activities";
+        (groups[month] ||= []).push(activity);
+        return groups;
+    }, {});
 
-    month.events.forEach((event) => {
-        const item = document.createElement("div");
-        item.className = "calendar-item";
-        item.innerHTML = `
-            <h3>${event.title}</h3>
-            <p>${event.date}</p>
-            <p>${event.time}</p>
-            <p>${event.location}</p>
-        `;
-        container.appendChild(item);
+    container.innerHTML = "";
+    Object.entries(activitiesByMonth).forEach(([month, activities]) => {
+        const monthSection = document.createElement("section");
+        monthSection.className = "calendar-month";
+        monthSection.innerHTML = `<h2 class="section-heading">${month}</h2><div class="list-card"></div>`;
+
+        const list = monthSection.querySelector(".list-card");
+        activities.forEach((activity) => {
+            const item = document.createElement("div");
+            item.className = "list-item";
+            item.innerHTML = `
+                <h4>${activity.title}</h4>
+                <p>${activity.date}</p>
+                <p>${activity.time}</p>
+            `;
+            list.appendChild(item);
+        });
+
+        container.appendChild(monthSection);
     });
 }
 

@@ -22,15 +22,16 @@
   "navPrayer": "Prayer",
   "navSettings": "Settings",
   "todayLesson": {
-    "title": "The Power of Prayer",
+    "title": "All Who Have Endured Valiantly",
     "subtitle": "Tap to open today's lesson.",
-    "link": "https://www.churchofjesuschrist.org/study/general-conference/2026/04?lang=eng",
+    "link": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/16bednar?lang=eng",
     "image": "images/placeholders/Class.jpg"
   },
   "announcements": [
     {
       "title": "Hispanic Pachanga and Potluck",
       "description": "Bring a favorite dish and your best smile.",
+      "month": "September",
       "date": "Saturday, September 26",
       "time": "6:00 PM - 10:00 PM",
       "where": "Place to be determined",
@@ -39,6 +40,7 @@
     {
       "title": "Service Project Day",
       "description": "Join the branch to support the neighborhood.",
+      "month": "October",
       "date": "Saturday, October 5",
       "time": "9:00 AM",
       "where": "Branch Grounds",
@@ -47,6 +49,7 @@
     {
       "title": "Family Home Evening",
       "description": "Come ready for a warm lesson and fellowship.",
+      "month": "October",
       "date": "Monday, October 7",
       "time": "7:00 PM",
       "where": "Meeting Room",
@@ -63,25 +66,6 @@
       "image": "images/placeholders/SpanishConnect.jpg"
     }
   ],
-  "calendar": [
-    {
-      "month": "July 2026",
-      "events": [
-        {
-          "title": "Ward BBQ",
-          "date": "July 10",
-          "time": "6:30 PM",
-          "location": "Branch House"
-        },
-        {
-          "title": "Temple Trip",
-          "date": "July 15",
-          "time": "8:00 AM",
-          "location": "Temple Parking Lot"
-        }
-      ]
-    }
-  ],
   "prayerRequests": [
     {
       "name": "Brother Scott",
@@ -89,7 +73,7 @@
     }
   ],
   "risingGeneration": [
-    "Emma",
+    "Kevin G.",
     "Jacob",
     "Noah"
   ]

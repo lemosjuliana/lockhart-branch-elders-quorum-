@@ -101,6 +101,12 @@ a {
     color: var(--primary-dark);
 }
 
+h2.section-heading {
+    margin: 0 0 1rem;
+    font-size: 1rem;
+    color: var(--primary-dark);
+}
+
 .card,
 .list-card,
 .settings-card {
@@ -220,7 +226,7 @@ a {
 .card .title {
     display: block;
     color: var(--bg);
-    font-size: 1.05rem;
+    font-size: 1.25rem;
     line-height: 1.4;
     font-weight: 600;
 }
@@ -431,11 +437,19 @@ a {
     margin-bottom: 0.2rem;
 }
 
-.calendar-list,
 .list-card {
     display: grid;
     gap: 0.75rem;
     padding: 0.75rem;
+}
+
+.calendar-list {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.calendar-month {
+    display: grid;
 }
 
 .calendar-item,
@@ -446,7 +460,8 @@ a {
 }
 
 .calendar-item h3,
-.list-item h3 {
+.list-item h3,
+.list-item h4 {
     margin: 0 0 0.24rem;
     font-size: 0.95rem;
     color: var(--primary-dark);
