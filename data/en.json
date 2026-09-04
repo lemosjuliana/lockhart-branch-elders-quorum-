@@ -45,15 +45,6 @@
       "time": "9:00 AM",
       "where": "Branch Grounds",
       "image": "images/placeholders/ServiceProject.jpg"
-    },
-    {
-      "title": "Family Home Evening",
-      "description": "Come ready for a warm lesson and fellowship.",
-      "month": "October",
-      "date": "Monday, October 7",
-      "time": "7:00 PM",
-      "where": "Meeting Room",
-      "image": "images/placeholders/FHE.jpg"
     }
   ],
   "recurringActivities": [
@@ -64,6 +55,14 @@
       "time": "6:00 PM - 7:00 PM",
       "where": "Lockhart Branch",
       "image": "images/placeholders/SpanishConnect.jpg"
+    },
+    {
+      "title": "Family Home Evening",
+      "description": "Come ready for a warm lesson and fellowship.",
+      "date": "Mondays",
+      "time": "Evenings",
+      "where": "At your home",
+      "image": "images/placeholders/FHE.jpg"
     }
   ],
   "prayerRequests": [
