@@ -44,15 +44,6 @@
       "time": "9:00 AM",
       "where": "Rama de Lockhart",
       "image": "images/placeholders/ServiceProject.jpg"
-    },
-    {
-      "title": "Noche de Hogar",
-      "description": "Ven listo para una lección cálida y compañerismo.",
-      "month": "Octubre",
-      "date": "Lunes, 7 de octubre",
-      "time": "7:00 PM",
-      "where": "Sala de Reuniones",
-      "image": "images/placeholders/FHE.jpg"
     }
   ],
   "recurringActivities": [
@@ -63,6 +54,14 @@
       "time": "5:00 PM - 6:30 PM",
       "where": "608 St Paul St. Gonzales, TX",
       "image": "images/placeholders/SpanishConnect.jpg"
+    },
+      {
+      "title": "Noche de Hogar",
+      "description": "Ven listo para una lección cálida y compañerismo.",
+      "date": "Lunes",
+      "time": "En la noche",
+      "where": "En tu hogar",
+      "image": "images/placeholders/FHE.jpg"
     }
   ],
   "prayerRequests": [
