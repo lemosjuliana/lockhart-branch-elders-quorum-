@@ -28,6 +28,15 @@
   },
   "announcements": [
     {
+      "title": "Sesión general del sacerdocio de la estaca",
+      "description": "Reúnanse como hermanos en el sacerdocio para fortalecerse, construir relaciones y apoyarse mutuamente.",
+      "month": "Septiembre",
+      "date": "Sábado, 19 de septiembre",
+      "time": "5:30 PM",
+      "where": "3751 Trail Ridge Pass, San Marcos, TX 78666",
+      "image": "images/placeholders/Class.jpg"
+    },
+    {
       "title": "Pachanga Hispana y Comida Compartida",
       "description": "Trae un platillo favorito y tu mejor sonrisa.",
       "month": "Septiembre",
