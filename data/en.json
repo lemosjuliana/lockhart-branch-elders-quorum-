@@ -29,6 +29,15 @@
   },
   "announcements": [
     {
+      "title": "Stake General Priesthood Session",
+      "description": "Come together as brothers in the priesthood to be strengthened, build relationships, and support one another.",
+      "month": "September",
+      "date": "Saturday, September 19",
+      "time": "5:30 PM",
+      "where": "3751 Trail Ridge Pass, San Marcos, TX 78666",
+      "image": "images/placeholders/Class.jpg"
+    },
+    {
       "title": "Hispanic Pachanga and Potluck",
       "description": "Bring a favorite dish and your best smile.",
       "month": "September",
@@ -45,16 +54,7 @@
       "time": "9:00 AM",
       "where": "Branch Grounds",
       "image": "images/placeholders/ServiceProject.jpg"
-    },
-      {
-      "title": "Stake General Priesthood Session",
-      "description": "Come together as brothers in the priesthood to be strengthened, build relationships, and support one another.",
-      "month": "September",
-      "date": "Saturday, September 19",
-      "time": "5:30 PM",
-      "where": "3751 Trail Ridge Pass, San Marcos, TX 78666",
-      "image": "images/placeholders/Class.jpg"
-    }
+    }      
   ],
   "recurringActivities": [
     {
