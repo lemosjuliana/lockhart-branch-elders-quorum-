@@ -21,9 +21,9 @@
   "navPrayer": "Oración",
   "navSettings": "Ajustes",
   "todayLesson": {
-    "title": "Todos los que Valientemente Hayan Perseverado",
+    "title": "Abandonaré todos mis pecados para conocerte",
     "subtitle": "Toca para abrir la lección de hoy.",
-    "link": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/16bednar?lang=spa",
+    "link": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/25wu?lang=spa",
     "image": "images/placeholders/Class.jpg"
   },
   "announcements": [
@@ -76,7 +76,15 @@
   "prayerRequests": [
     {
       "name": "Brother Scott",
-      "reason": "Recuperándose de una cirugía"
+      "reason": "Recuperándose de una cirugía."
+    },
+     {
+      "name": "Brother Stuart Bell",
+      "reason": "Recuperándose en el hospital en Kyle."
+    },
+     {
+      "name": "Brother Don Page",
+      "reason": "Recuperándose en el hospital en Austin."
     }
   ],
   "risingGeneration": [
