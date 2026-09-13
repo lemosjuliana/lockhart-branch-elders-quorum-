@@ -22,9 +22,9 @@
   "navPrayer": "Prayer",
   "navSettings": "Settings",
   "todayLesson": {
-    "title": "All Who Have Endured Valiantly",
+    "title": "“I Will Give Away All My Sins to Know Thee”",
     "subtitle": "Tap to open today's lesson.",
-    "link": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/16bednar?lang=eng",
+    "link": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/25wu?lang=eng",
     "image": "images/placeholders/Class.jpg"
   },
   "announcements": [
@@ -77,7 +77,15 @@
   "prayerRequests": [
     {
       "name": "Brother Scott",
-      "reason": "Recovering from surgery"
+      "reason": "Recovering from surgery."
+    },
+     {
+      "name": "Brother Stuart Bell",
+      "reason": "Recovering in the hospital in Kyle."
+    },
+     {
+      "name": "Brother Don Page",
+      "reason": "Recovering in the hospital in Austin."
     }
   ],
   "risingGeneration": [
