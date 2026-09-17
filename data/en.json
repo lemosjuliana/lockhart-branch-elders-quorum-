@@ -44,7 +44,7 @@
       "date": "Sunday, October 18",
       "time": "6:00 PM - 7:30 PM",
       "where": "3751 Trail Ridge Pass, San Marcos, TX",
-      "image": "images/placeholders/Potluck.jpg"
+      "image": "images/placeholders/Scriptures.jpg"
     },
     {
       "title": "Pinewood Derby Night",
@@ -53,7 +53,7 @@
       "date": "Friday, September 25",
       "time": "6:00 PM",
       "where": "Lockhart Branch",
-      "image": "images/placeholders/ServiceProject.jpg"
+      "image": "images/placeholders/PinewoodDerby.jpg"
     }      
   ],
   "recurringActivities": [
