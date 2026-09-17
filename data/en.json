@@ -22,9 +22,9 @@
   "navPrayer": "Prayer",
   "navSettings": "Settings",
   "todayLesson": {
-    "title": "“I Will Give Away All My Sins to Know Thee”",
+    "title": "Jesus Christ Is the Way",
     "subtitle": "Tap to open today's lesson.",
-    "link": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/25wu?lang=eng",
+    "link": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/28holmes?lang=eng",
     "image": "images/placeholders/Class.jpg"
   },
   "announcements": [
@@ -38,21 +38,21 @@
       "image": "images/placeholders/Class.jpg"
     },
     {
-      "title": "Hispanic Pachanga and Potluck",
-      "description": "Bring a favorite dish and your best smile.",
-      "month": "September",
-      "date": "Saturday, September 26",
-      "time": "6:00 PM - 10:00 PM",
-      "where": "Place to be determined",
+      "title": "Introduction to the Book of Jeremiah Gathering",
+      "description": "Learn from a biblical scholar how to study the book of Jeremiah. Open to all interested.",
+      "month": "October",
+      "date": "Sunday, October 18",
+      "time": "6:00 PM - 7:30 PM",
+      "where": "3751 Trail Ridge Pass, San Marcos, TX",
       "image": "images/placeholders/Potluck.jpg"
     },
     {
-      "title": "Service Project Day",
-      "description": "Join the branch to support the neighborhood.",
-      "month": "October",
-      "date": "Saturday, October 5",
-      "time": "9:00 AM",
-      "where": "Branch Grounds",
+      "title": "Pinewood Derby Night",
+      "description": "Come join us for a fun night of Derby races, food, and laughter.",
+      "month": "September",
+      "date": "Friday, September 25",
+      "time": "6:00 PM",
+      "where": "Lockhart Branch",
       "image": "images/placeholders/ServiceProject.jpg"
     }      
   ],
