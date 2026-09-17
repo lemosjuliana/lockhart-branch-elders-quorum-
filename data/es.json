@@ -21,9 +21,9 @@
   "navPrayer": "Oración",
   "navSettings": "Ajustes",
   "todayLesson": {
-    "title": "Abandonaré todos mis pecados para conocerte",
+    "title": "Jesucristo es el camino",
     "subtitle": "Toca para abrir la lección de hoy.",
-    "link": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/25wu?lang=spa",
+    "link": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/28holmes?lang=spa",
     "image": "images/placeholders/Class.jpg"
   },
   "announcements": [
@@ -37,22 +37,22 @@
       "image": "images/placeholders/Class.jpg"
     },
     {
-      "title": "Pachanga Hispana y Comida Compartida",
-      "description": "Trae un platillo favorito y tu mejor sonrisa.",
-      "month": "Septiembre",
-      "date": "Sábado, 26 de septiembre",
-      "time": "6:00 PM - 10:00 PM",
-      "where": "Lugar a ser determinado",
-      "image": "images/placeholders/Potluck.jpg"
+    "title": "Reunión de introducción al libro de Jeremías",
+    "description": "Aprenda de un experto en estudios bíblicos cómo estudiar el libro de Jeremías. Abierto a todos los interesados.",
+    "month": "Octubre",
+    "date": "Domingo, 18 de octubre",
+    "time": "6:00 p. m. - 7:30 p. m.",
+    "where": "3751 Trail Ridge Pass, San Marcos, TX",
+    "image": "images/placeholders/Scriptures.jpg"
     },
     {
-      "title": "Día de Servicio",
-      "description": "Únete a la rama para apoyar a la comunidad.",
-      "month": "Octubre",
-      "date": "Sábado, 5 de octubre",
-      "time": "9:00 AM",
-      "where": "Rama de Lockhart",
-      "image": "images/placeholders/ServiceProject.jpg"
+    "title": "Noche de Pinewood Derby",
+    "description": "Acompáñenos en una noche divertida de carreras Derby, comida y risas.",
+    "month": "Septiembre",
+    "date": "Viernes, 25 de septiembre",
+    "time": "6:00 p. m.",
+    "where": "Rama de Lockhart",
+    "image": "images/placeholders/PinewoodDerby.jpg"
     }
   ],
   "recurringActivities": [
