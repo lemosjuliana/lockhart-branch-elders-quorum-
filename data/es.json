@@ -21,21 +21,12 @@
   "navPrayer": "Oración",
   "navSettings": "Ajustes",
   "todayLesson": {
-    "title": "Jesucristo es el camino",
+    "title": "Es Pascua de Resurrección: Nadie camina solo",
     "subtitle": "Toca para abrir la lección de hoy.",
-    "link": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/28holmes?lang=spa",
+    "link": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/58gong?lang=spa",
     "image": "images/placeholders/Class.jpg"
   },
   "announcements": [
-    {
-      "title": "Sesión general del sacerdocio de la estaca",
-      "description": "Reúnanse como hermanos en el sacerdocio para fortalecerse, construir relaciones y apoyarse mutuamente.",
-      "month": "Septiembre",
-      "date": "Sábado, 19 de septiembre",
-      "time": "5:30 PM",
-      "where": "3751 Trail Ridge Pass, San Marcos, TX 78666",
-      "image": "images/placeholders/Class.jpg"
-    },
     {
     "title": "Reunión de introducción al libro de Jeremías",
     "description": "Aprenda de un experto en estudios bíblicos cómo estudiar el libro de Jeremías. Abierto a todos los interesados.",
@@ -44,15 +35,6 @@
     "time": "6:00 p. m. - 7:30 p. m.",
     "where": "3751 Trail Ridge Pass, San Marcos, TX",
     "image": "images/placeholders/Scriptures.jpg"
-    },
-    {
-    "title": "Noche de Pinewood Derby",
-    "description": "Acompáñenos en una noche divertida de carreras Derby, comida y risas.",
-    "month": "Septiembre",
-    "date": "Viernes, 25 de septiembre",
-    "time": "6:00 p. m.",
-    "where": "Rama de Lockhart",
-    "image": "images/placeholders/PinewoodDerby.jpg"
     }
   ],
   "recurringActivities": [
@@ -77,16 +59,7 @@
     {
       "name": "Brother Scott",
       "reason": "Recuperándose de una cirugía."
-    },
-     {
-      "name": "Brother Stuart Bell",
-      "reason": "Recuperándose en el hospital en Kyle."
-    },
-     {
-      "name": "Brother Don Page",
-      "reason": "Recuperándose en el hospital en Austin."
     }
-  ],
   "risingGeneration": [
     "Kevin G.",
     "Jacob",
